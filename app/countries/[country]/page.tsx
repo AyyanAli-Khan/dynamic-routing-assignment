@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export default async function CountryPage({
   params,
 }: {
@@ -19,6 +20,8 @@ export default async function CountryPage({
       <h2 className="text-4xl">Capital city : {capitalCity}</h2>
       <h2 className="text-4xl">Population : {population}</h2>
       <h2 className="text-4xl">Region : {region}</h2>
+      <Link href={'/countries'} className=' border-2 border-black rounded-lg px-4 py-2 text-xl hover:bg-teal-800 hover:border-none hover:text-white font-bold transition-all duration-300 ease-linear'>Back to country page</Link>
+      
     </div>
   );
 }

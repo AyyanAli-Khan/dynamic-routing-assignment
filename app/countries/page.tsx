@@ -18,6 +18,9 @@ const page = () => {
                 <Link href={'countries/germany'}>Germany</Link>
             </li>
         </ul>
+
+        <Link href={'/'} className=' border-2 border-black rounded-lg px-4 py-2 text-xl hover:bg-teal-800 hover:border-none hover:text-white font-bold transition-all duration-300 ease-linear'>Back to home page</Link>
+      
     </div>
   )
 }
