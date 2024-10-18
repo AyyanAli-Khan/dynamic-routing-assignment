@@ -1,4 +1,3 @@
-'use client'
 import CountryData from '@/app/(data)/CountryData'
 import Link from 'next/link'
 
