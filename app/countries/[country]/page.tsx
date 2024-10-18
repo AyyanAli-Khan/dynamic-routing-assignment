@@ -28,7 +28,8 @@ export default  function CountryPage({params}:Params) {
   console.log(selectedCountryData)
 
   return (
-    <div className="h-screen w-full py-10 text-5xl gap-6 flex flex-col justify-center items-center">
+    <div className="h-screen w-full py-10 text-5xl gap-6 flex flex-col justify-center
+     items-center  ">
       <h1>Country Name : {country}</h1>
       <h2 className="text-4xl">Capital city : {capital}</h2>
       <h2 className="text-4xl">Population : {population}</h2>

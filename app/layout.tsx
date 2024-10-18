@@ -28,8 +28,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <h1 className="text-5xl text-800 absolute top-[10%] right-[40%] text-teal-800
-        font-bold text-center">
+        <h1 className="md:text-5xl lg:text-5xl text-800 absolute top-[10%] right-[40%] text-teal-800
+        font-bold text-center text-3xl tracking-tight leading-none  ">
           Ayyan Ali Khan
         </h1>
         {children}
